@@ -134,17 +134,7 @@ export function Sidebar({ avatarUrl }: SidebarProps) {
       {/* ── Crédito do template ───────────────────────────────────────
           Backlink para a F&A Works. Para REMOVER o crédito do seu site,
           basta apagar este bloco inteiro (do <div> ao </div>). */}
-      <div className="border-t border-border">
-        <a
-          href="https://templates.fsza.works"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center justify-between px-5 py-3 text-[11px] text-muted/60 hover:text-fg hover:bg-white/[0.03] transition-colors"
-        >
-          <span>Template by F&amp;A</span>
-          <span className="text-muted/40 text-[10px]">↗</span>
-        </a>
-      </div>
+
       {/* ── Fim do crédito do template ────────────────────────────── */}
 
       {/* Espaçador */}
