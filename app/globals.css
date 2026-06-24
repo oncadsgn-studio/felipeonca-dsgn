@@ -2,7 +2,8 @@
 
 :root {
   --bg: #0a0a0a;
-  --fg: #0033ff;
+  --fg: #f6f6f6;
+  --tlt: #0033ff;
   --muted: #cccccc;
   --accent: #cccccc;
   --border: #666666;
@@ -14,6 +15,7 @@
   --color-muted: var(--muted);
   --color-accent: var(--accent);
   --color-border: var(--border);
+  --color-tlt: var(--tlt);
   --font-sans: var(--font-inter-tight), sans-serif;
   --font-display: var(--font-inter-tight), sans-serif;
   --font-body: var(--font-inter-tight), sans-serif;
