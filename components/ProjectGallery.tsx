@@ -31,6 +31,7 @@ export function ProjectGallery({ media, videoUrls }: ProjectGalleryProps) {
   while (mi < totalMedia || vi < totalVideos) {
     if (mi < totalMedia) { items.push({ type: "image", src: media[mi++] }) }
     if (mi < totalMedia) { items.push({ type: "image", src: media[mi++] }) }
+    if (mi < totalMedia) { items.push({ type: "image", src: media[mi++] }) }
     if (vi < totalVideos) { items.push({ type: "video", url: videoUrls[vi++] }) }
   }
 
